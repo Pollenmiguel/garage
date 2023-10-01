@@ -1,7 +1,6 @@
 /* Styles pour l'en-tête */
 header {
-    background-color: #333;
-    color: #fff;
+    background-color: white;
     padding: 10px 0;
     display: flex;
     justify-content: space-between;
@@ -9,7 +8,7 @@ header {
 }
 
 .logo img {
-    max-width: 100px;
+    max-width: 200px;
 }
 
 nav ul {
@@ -21,7 +20,7 @@ nav ul {
 
 nav ul li a {
     margin-right: 20px;
-    color: #fff;
+    color: black;
     font-size: 16px;
     font-weight: bold;
 }
@@ -41,6 +40,7 @@ nav ul li a:hover {
 /* Styles pour la section des services */
 .services {
     padding: 20px;
+    margin-bottom: 10%;
 }
 
 .service {
@@ -57,7 +57,9 @@ footer {
     background-color: #333;
     color: #fff;
     padding: 10px 0;
-    text-align: center;
+    text-align: center; 
+    bottom: 0 ;
+
 }
 
 /* Ajoutez ici d'autres styles pour le reste de votre contenu. */
