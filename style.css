@@ -43,21 +43,73 @@ nav ul li a:hover {
     margin-bottom: 10%;
 }
 
+
+
 .service {
     margin-bottom: 20px;
     text-align:start;
-    margin-left: 5%;
+    margin-left: 2%;
+    margin-right: 5%;
 }
 
+.services-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Si vous souhaitez également les espacer horizontalement */
+    height: 60vh;
+
+}
 
 h2 {
-margin-left: 5%;
+margin-left: 20%;
 
 }
 
 .service img {
     max-width: 100%;
 }
+
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonials {
+    width: 300px; /* Largeur du conteneur des commentaires */
+    overflow: hidden;
+    white-space: nowrap; /* Empêche le retour à la ligne */
+}
+
+.testimonial {
+    width: 300px; /* Largeur d'un témoignage */
+    padding: 10px;
+    margin-right: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.controls {
+    margin-top: 10px;
+    text-align: center;
+}
+
+#prev-btn,
+#next-btn {
+    padding: 5px 10px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#prev-btn:hover,
+#next-btn:hover {
+    background-color: #555;
+}
+
+
 
 /* Styles pour les horaires d'ouverture dans le pied de page */
 footer {
@@ -70,3 +122,12 @@ footer {
 }
 
 /* Ajoutez ici d'autres styles pour le reste de votre contenu. */
+
+
+div, aside, p, section, img, ul, nav, li, main, h1, h2, h3, .social-column, .social-container, .sport-info, .container-main-sidebar, header, .logo, .presentation, .video-container 
+    .content{
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+
+    }
