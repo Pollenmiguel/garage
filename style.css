@@ -1,8 +1,12 @@
 
-
+body {
+    background-image: url('images/garage3.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 header {
-    background: linear-gradient(to bottom, black, white);
+    background:  rgba(0, 0, 0, 0.7);
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.7);
     padding: 10px 0;
     display: flex;
@@ -42,36 +46,39 @@ nav ul li a:hover {
     text-decoration: none;
 }
 
-/* Styles pour la section des services */
-.services {
-    display: flex;
-    flex-direction: row;
-    padding: 20px;
-    margin-bottom: 10%;
-    margin-top: -10%;
-    margin-left: 6%;
-    color: #fff;
-    font-size: 20px;
-}
-
-
-
-.service {
-    margin-bottom: 20px;
-    text-align:start;
-    margin-left: 2%;
-    margin-right: 5%;
-}
-
 .services-container {
     display: flex;
     align-items: center;
     justify-content: space-around;
     height: 80vh;
-    background-image: url('images/R0Hf1a2A7f7FOhebfdYj--1--z5j5a.jpg');
-    background-size: 100% 100%; /* Ajustez la taille de l'image au conteneur */
-    background-repeat: no-repeat;
+    
 }
+
+
+.services {
+    display: flex;
+    flex-direction: row; /* Mode paysage - enfants alignés horizontalement */
+    flex-wrap: wrap; /* Les enfants peuvent passer à la ligne si l'espace est insuffisant */
+    align-items: stretch; /* Les enfants s'étireront pour occuper toute la hauteur */
+    padding: 20px;
+    margin-bottom: 10%;
+    margin-top: -10%;
+    margin-left: 2%;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+.service {
+    width: calc(33.33% - 20px); /* Pour créer 3 colonnes avec un espace de 20px entre elles */
+    margin-bottom: 20px;
+    text-align: start;
+    margin-left: 20px; /* Espacement entre les blocs "service" */
+    margin-right: 20px; /* Espacement entre les blocs "service" */
+}
+
+
+
 
 
 h2 {
@@ -91,12 +98,15 @@ font-size: 30px;
     flex-direction: column;
     align-items: center;
     margin-top: -15%;
+    background-color: rgba(0, 0, 0, 0.6);
+
 }
 
 .testimonials {
     width: 300px; /* Largeur du conteneur des commentaires */
     overflow: hidden;
     white-space: nowrap; /* Empêche le retour à la ligne */
+
 }
 
 .testimonial {
@@ -107,6 +117,7 @@ font-size: 30px;
     border: 1px solid #ccc;
     text-align: center;
     display: none;
+
 }
 
 .controls {
@@ -134,29 +145,37 @@ font-size: 30px;
 footer {
     display: flex;
     flex-direction: row;
-    background: linear-gradient(to bottom, white, black);;
-    color: black;
+    background: rgba(0, 0, 0, 0.6);
     padding: 10px 0;
     text-align: center; 
     bottom: 0 ;
+    height: 25vh;
+    margin-top: 30vh;
+    box-shadow: 0px -5px 15px rgba(0, 0, 0, 0.7);
+  
+    
 }
 
 
 .opening-hours {
 
 width: 30%;
+color: #fff;
+font-size: 20px;
 }
 
 .contact {
 
 width: 30%;
+color: #fff;
+font-size: 20px;
 
 }
 
 /* Ajoutez ici d'autres styles pour le reste de votre contenu. */
 
-
-/* div, aside, p, section, img, ul, nav, li, main, h1, h2, h3, .social-column, .social-container, .sport-info, .container-main-sidebar, header, .logo, .presentation, .video-container 
+/* 
+div, aside, p, section, img, ul, nav, li, main, h1, h2, h3, .social-column, .social-container, .sport-info, .container-main-sidebar, header, .logo, .presentation, .video-container 
     .content{
     border-color: red;
     border-style: solid;
