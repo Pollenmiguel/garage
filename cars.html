@@ -6,63 +6,56 @@
     <link rel="stylesheet" href="style.css">
     <title>Voiture d'occasions</title>
 </head>
-<body class="cars-background"></body>>
+<body class="cars-background">
     <!-- En-tête avec le logo et le lien de connexion -->
-    
     <div class="background">
-    
-    <header>
-        <div class="logo">
-            <img src="logo/logogarage2.png" alt="Logo Garage V. Parrot">
+        <header>
+            <div class="logo">
+                <img src="logo/logogarage2.png" alt="Logo Garage V. Parrot">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="cars.html">Voitures d'Occasion</a></li>
+                    <li><a href="temoi.html">Témoignages</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <nav class="login">
+                <ul>
+                    <li class="dropdown">
+                        <a href="#">Mon compte</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Option 1</a></li>
+                            <li><a href="#">Option 2</a></li>
+                            <li><a href="#">Se déconnecter</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Se connecter</a></li>
+                </ul>
+            </nav>
+        </header>
+        <h1>Recherche de Véhicules</h1>
+        <div class="filters">
+            <label for="price">Prix :</label>
+            <input type="text" id="price">
+            <label for="mileage">Kilométrage :</label>
+            <input type="text" id="mileage">
+            <label for="year">Année de mise en circulation :</label>
+            <input type="text" id="year">
+            <label for="brand">Marque :</label>
+            <select id="brand">
+                <option value="Tous">Tous</option>
+                <option value="Toyota">Toyota</option>
+                <option value="Honda">Honda</option>
+                <!-- Ajoutez d'autres options ici -->
+            </select>
         </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Accueil</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="cars.html">Voitures d'Occasion</a></li>
-                <li><a href="temoi.html">Témoignages</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-        
-
-
-        <nav class="login">
-            <ul>
-                <li class="dropdown">
-                    <a href="#">Mon compte</a>
-                    <ul class="dropdown-content">
-                        <li><a href="#">Option 1</a></li>
-                        <li><a href="#">Option 2</a></li>
-                        <li><a href="#">Se deconnecter</a></li>
-                    </ul>
-                </li>
-                <li><a href="#">Se connecter</a></li>
-            </ul>
-        </nav>
-        
-        
-            
-       
-    </header>
-
-    
-
-    <!-- <h2>Nos Services</h2> -->
-
-    <section class="services-container">
-       
-       
-       
-        
-        
-    </section>
-
-</div>
-
-   
-
-    <!-- Horaires d'Ouverture -->
+        <div class="results">
+            <!-- Les résultats seront affichés ici -->
+        </div>
+    </div>
     <footer>
         <div class="opening-hours">
             <h3>Horaires d'Ouverture</h3>
@@ -70,16 +63,11 @@
             <p>Samedi : 9h00 - 13h00</p>
             <p>Dimanche : Fermé</p>
         </div>
-
         <div class="contact">
             <h3>Contactez-nous </h3>
-        
-
         </div>
     </footer>
-
     <!-- Le reste de votre contenu, y compris les voitures d'occasion, les témoignages, le formulaire de contact, etc. -->
     <script src="script.js"></script>
-
 </body>
 </html>
