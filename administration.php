@@ -3,7 +3,7 @@
 // administration.php
 
 session_start();
-include('config.php');
+require_once('config.php');
 
 // Vérifier si l'utilisateur est authentifié
 if (!isset($_SESSION['user_id'])) {
