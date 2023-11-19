@@ -216,6 +216,25 @@ color:#fff
 
 }
 
+
+/* style.css */
+.vehicle {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin: 10px;
+    width: 300px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: center;
+}
+
+.vehicle img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+
 /* Ajoutez ici d'autres styles pour le reste de votre contenu. */
 
 /* 
