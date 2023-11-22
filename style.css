@@ -7,7 +7,7 @@ body {
 
 .cars-background {
     background-image: url('images/occasion.jpg');
-    background-size: 100% 100%; /* Ajustez la propriété en fonction de vos besoins */
+    background-size: 100% 100%; 
 }
 
 header {
@@ -40,7 +40,6 @@ nav ul li a {
 }
 
 
-/* Styles pour le texte du menu au survol (changement de couleur au survol) */
 nav ul li a:hover {
     color: red; /* Couleur du texte au survol */
 }
@@ -93,9 +92,9 @@ nav ul li a:hover {
 
 .services {
     display: flex;
-    flex-direction: row; /* Mode paysage - enfants alignés horizontalement */
-    flex-wrap: wrap; /* Les enfants peuvent passer à la ligne si l'espace est insuffisant */
-    align-items: stretch; /* Les enfants s'étireront pour occuper toute la hauteur */
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    align-items: stretch; 
     padding: 20px;
     margin-bottom: 10%;
     margin-top: -10%;
@@ -106,11 +105,11 @@ nav ul li a:hover {
 }
 
 .service {
-    width: calc(33.33% - 20px); /* Pour créer 3 colonnes avec un espace de 20px entre elles */
+    width: calc(33.33% - 20px); 
     margin-bottom: 20px;
     text-align: start;
-    margin-left: 20px; /* Espacement entre les blocs "service" */
-    margin-right: 20px; /* Espacement entre les blocs "service" */
+    margin-left: 20px; 
+    margin-right: 20px; 
 }
 
 
@@ -139,14 +138,14 @@ font-size: 30px;
 }
 
 .testimonials {
-    width: 300px; /* Largeur du conteneur des commentaires */
+    width: 300px; 
     overflow: hidden;
-    white-space: nowrap; /* Empêche le retour à la ligne */
+    white-space: nowrap; 
 
 }
 
 .testimonial {
-    width: 300px; /* Largeur d'un témoignage */
+    width: 300px; 
     padding: 10px;
     margin-right: 20px;
     background-color: #f9f9f9;
@@ -217,7 +216,7 @@ color:#fff
 }
 
 
-/* style.css */
+/* affichage dynamique recherche */
 .vehicle {
     border: 1px solid #ccc;
     padding: 15px;
@@ -234,8 +233,6 @@ color:#fff
     margin-bottom: 10px;
 }
 
-
-/* Ajoutez ici d'autres styles pour le reste de votre contenu. */
 
 /* 
 div, aside, p, section, img, ul, nav, li, main, h1, h2, h3, .social-column, .social-container, .sport-info, .container-main-sidebar, header, .logo, .presentation, .video-container 

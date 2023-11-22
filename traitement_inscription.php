@@ -8,7 +8,6 @@ $mot_de_passe = $_POST['mot_de_passe'];
 require_once('passwordUtils.php');
 $hashedPassword = hashPassword($mot_de_passe);
 
-// Utilisation de la nouvelle colonne mdp
 $sql = "INSERT INTO utilisateurs (nom, email, mot_de_passe, role) VALUES (?, ?, ?, 'admin')";
 
 $stmt = $pdo->prepare($sql);
